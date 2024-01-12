@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  font-size: 1vw;
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 0.2em 1rem;
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    font-size: 3.4vw;
+  }
+}
